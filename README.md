@@ -14,6 +14,10 @@ Our goal is to learn correlations that are stable across different training envi
 where <img src="https://render.githubusercontent.com/render/math?math=E_j">: <img src="https://render.githubusercontent.com/render/math?math=E_j^{i\checkmark}"> contains examples that are predicted correctly and <img src="https://render.githubusercontent.com/render/math?math=E_j">: <img src="https://render.githubusercontent.com/render/math?math=E_j^{i\times}"> contains examples that are misclassified by <img src="https://render.githubusercontent.com/render/math?math=E_j">: <img src="https://render.githubusercontent.com/render/math?math=f_i">.
 3. Train the final model by minimizing the worst-case risk over all interpolations of the partitions.
 
+<p align="center">
+<img src="assets/toy.png" width=100% />
+</p>
+
 ## Data
 #### Download
 
@@ -24,12 +28,12 @@ We ran experiments on a total of 4 datasets. MNIST and CelebA can be directly do
 
 ## Code
 `src/main.py` is our main file.
-- `train_utils` loads the training algorithm specified by the method argument.
-- `data_utils` loads the dataset specified by the dataset argument.
-- `model_utils` loads the network specified by the method and the dataset arguments.
-- `training/` contains the training and testing routine for all methods.
-- `data/` contains the data pre-processing and loading pipeline for different datasets.
-- `model/` contains the networks that we used for different datasets.
+- `src/train_utils` loads the training algorithm specified by the method argument.
+- `src/data_utils` loads the dataset specified by the dataset argument.
+- `src/model_utils` loads the network specified by the method and the dataset arguments.
+- `src/training/` contains the training and testing routine for all methods.
+- `src/data/` contains the data pre-processing and loading pipeline for different datasets.
+- `src/model/` contains the networks that we used for different datasets.
 
 ## Dependencies
 `package-list.txt` contains all the packages that are related to the project.
