@@ -1,10 +1,10 @@
 # Predict-then-Interpolate
 
-This repository contains the code and data for our paper:
+🥧 This repository contains the code and data for our paper:
 
-*Predict, then Interpolate: A Simple Algorithm to Learn Stable Classifiers*. Yujia Bao, Shiyu Chang and Regina Barzilay.
+🥧 *Predict, then Interpolate: A Simple Algorithm to Learn Stable Classifiers*. Yujia Bao, Shiyu Chang and Regina Barzilay.
 
-If you find this work useful and use it on your own research, please cite our paper.
+🥧 If you find this work useful and use it on your own research, please cite our paper.
 
 ## Overview
 
