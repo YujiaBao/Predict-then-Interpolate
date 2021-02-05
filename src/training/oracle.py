@@ -273,6 +273,7 @@ def oracle(train_data, test_data, model, opt, writer, args):
     print('Best train')
     print(train_res)
     print('Best val')
+    val_res = best_val_res
     print(val_res)
     print('Test')
     print(test_res)

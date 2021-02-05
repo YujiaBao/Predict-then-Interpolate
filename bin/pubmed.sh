@@ -8,7 +8,7 @@ python src/main.py --method=irm --dataset=pubmed --lr=0.001 --weight_decay=0.001
 
 # RGM
 python src/main.py --method=rgm --dataset=pubmed --lr=0.001 --weight_decay=0.001\
-    --dropout=0.1 --anneal_iters=10 --l_regret=0.1
+    --dropout=0.3 --anneal_iters=10 --l_regret=0.1
 
 # DRO
 python src/main.py --method=dro --dataset=pubmed --lr=0.00001 --weight_decay=0.001\

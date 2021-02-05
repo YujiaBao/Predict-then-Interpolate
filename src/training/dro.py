@@ -201,6 +201,7 @@ def dro(train_data, test_data, model, opt, writer, args):
     # get the results
     test_res = test_loop(test_loaders[3], model, ep, args,
                          test_data.test_att_idx_dict)
+    val_res = best_val_res
     print('Best train')
     print(train_res)
     print('Best val')
