@@ -1,10 +1,21 @@
 # Predict-then-Interpolate
 
-🥧 This repository contains the code and data for our paper:
+🥧 This repository contains the code and data for our ICML 2021 paper:
 
-🥧 *Predict, then Interpolate: A Simple Algorithm to Learn Stable Classifiers*. Yujia Bao, Shiyu Chang and Regina Barzilay.
+🥧 *[Predict, then Interpolate: A Simple Algorithm to Learn Stable Classifiers](https://arxiv.org/pdf/2105.12628.pdf)*. Yujia Bao, Shiyu Chang and Regina Barzilay.
 
 🥧 If you find this work useful and use it on your own research, please cite our paper.
+
+```
+@inproceedings{bao2021predict,
+  title={Predict then Interpolate: A Simple Algorithm to Learn Stable Classifiers},
+  author={Bao, Yujia and Chang, Shiyu and Barzilay, Regina},
+  booktitle={International Conference on Machine Learning},
+  year={2021},
+  organization={PMLR}
+}
+```
+
 
 ## Overview
 
