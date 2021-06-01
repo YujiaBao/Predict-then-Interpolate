@@ -31,7 +31,7 @@ where <img src="https://render.githubusercontent.com/render/math?math=E_j">: <im
 
 ## Data
 Datasets should be put under the directory `datasets/`.
-We ran experiments on a total of 4 datasets. MNIST and CelebA can be directly downloaded from the PyTorch API. For beer review and ASK2ME, you may download our processed data [here](https://people.csail.mit.edu/yujia/files/predict-then-interpolate/data.zip).
+We ran experiments on a total of 4 datasets. MNIST and CelebA can be directly downloaded from the PyTorch API. For beer review and ASK2ME, due to liscense issues, you may contact me ([yujia@csail.mit.edu](yujia@csail.mit.edu)) for the processed data.
 
 ### Quickstart
 `.bin/` contains all the scripts for running the baselines and our algorithm.
